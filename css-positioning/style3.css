@@ -1,4 +1,5 @@
 body {
+  
   margin: 0;
   border: 5px solid black;
   height: 100vh;
@@ -6,25 +7,34 @@ body {
 }
 
 .one {
+  display: inline-block;
   width: 400px;
   height: 400px;
   background-color: red;
 }
 
 .two {
+  display: inline-block;
   width: 300px;
   height: 300px;
   background-color: yellow;
 }
 
 .three {
+  display: inline-block;
   width: 200px;
   height: 200px;
   background-color: green;
+  position: relative;
+  top: 200px;
+  left: 400px;
 }
 
 .four {
+  display: inline-block;
   width: 100px;
   height: 100px;
   background-color: blue;
+  position: relative;
+  top: 100px;
 }
